@@ -1,0 +1,24 @@
+{
+  "name": "rest-rant",
+  "version": "1.0.0",
+  "description": "About: This project is a compiled demonstration of the lessons learned in Back-End Development unit of the Full Stack Development Bootcamp at NJIT.\r The REST-Rant project involves making a website which allows a website user to access individual portfolios of different kinds of bread via created routes. The user's expreience and interaction with the webpage would be highly depenedent on the proper functioning of the client-server model.",
+  "main": "routes.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "express-react-views": "^0.11.0",
+    "method-override": "^3.0.0",
+    "mongoose": "^6.1.6",
+    "react": "^17.0.2"
+  },
+  "engines": {
+    "node": "15.12.0"
+  }
+}
